@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:padding="0.0dip" android:layout_width="fill_parent" android:layout_height="@dimen/smallContentItemHeight" app:contentInsetEnd="0.0dip" app:contentInsetStart="0.0dip">
+        <LinearLayout android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="fill_parent">
+            <RelativeLayout android:layout_width="@dimen/calendarAxisWidth" android:layout_height="fill_parent">
+                <Button android:textSize="@dimen/calendarWeekSelectorFontSize" android:textColor="@color/calendarWeekSelectorText" android:id="@id/week_selection_button" android:padding="0.0dip" android:layout_width="@dimen/calendarWeekSelectorSize" android:layout_height="@dimen/calendarWeekSelectorSize" android:layout_margin="0.0dip" android:layout_centerInParent="true" android:insetLeft="0.0dip" android:insetRight="0.0dip" android:insetTop="0.0dip" android:insetBottom="0.0dip" android:backgroundTint="@color/calendarWeekSelectorBackground" style="@style/TimetableTheme.FlatButtonStyle" />
+            </RelativeLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@id/calendar_label_container" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        </LinearLayout>
+    </androidx.appcompat.widget.Toolbar>
+</com.google.android.material.appbar.AppBarLayout>

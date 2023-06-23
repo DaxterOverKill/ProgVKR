@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d eventi</item>
+        <item quantity="zero">Non ci sono eventi</item>
+        <item quantity="one">%d evento</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">Altre %d</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d Eventi</item>
+        <item quantity="zero">Nessun evento</item>
+        <item quantity="one">1 Evento</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d selezionati</item>
+        <item quantity="zero">%d selezionati</item>
+        <item quantity="one">%d selezionati</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d compiti</item>
+        <item quantity="zero">Non ci sono attività</item>
+        <item quantity="one">%d compito</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nuove notifiche</item>
+        <item quantity="one">%d nuova notifica</item>
+    </plurals>
+</resources>

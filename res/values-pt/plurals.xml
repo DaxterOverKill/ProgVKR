@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d eventos</item>
+        <item quantity="zero">Sem eventos</item>
+        <item quantity="one">1 evento</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">%d mais</item>
+        <item quantity="zero">%d mais</item>
+        <item quantity="one">mais 1</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d ocorrências</item>
+        <item quantity="zero">Nenhuma ocorrência</item>
+        <item quantity="one">1 ocorrência</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d selecionado(s)</item>
+        <item quantity="zero">%d selecionado(s)</item>
+        <item quantity="one">%d selecionado(s)</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d tarefas</item>
+        <item quantity="zero">Sem tarefas</item>
+        <item quantity="one">1 tarefa</item>
+    </plurals>
+</resources>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d догађаја</item>
+        <item quantity="zero">Nema događaja</item>
+        <item quantity="one">%d догађај</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">још %d</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d pojavljivanja</item>
+        <item quantity="zero">Nema pojavljivanja</item>
+        <item quantity="one">1 pojavljivanje</item>
+        <item quantity="few">%d pojavljivanja</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">Izabrano: %d</item>
+        <item quantity="zero">Izabrano: %d</item>
+        <item quantity="one">Izabrano: %d</item>
+        <item quantity="few">Izabrano: %d</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d задатака</item>
+        <item quantity="zero">Nema obaveza</item>
+        <item quantity="one">%d задатак</item>
+        <item quantity="few">%d задатка</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d нових обавештења</item>
+        <item quantity="one">%d ново обавештење</item>
+        <item quantity="few">%d нова обавештења</item>
+    </plurals>
+</resources>

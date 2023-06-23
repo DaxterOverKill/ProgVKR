@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d gebeurtenissen</item>
+        <item quantity="zero">Geen gebeurtenissen</item>
+        <item quantity="one">%d gebeurtenis</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">Nog %d</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d gebeurtenissen</item>
+        <item quantity="zero">Geen gebeurtenissen</item>
+        <item quantity="one">1 gebeurtenis</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d geselecteerd</item>
+        <item quantity="zero">%d geselecteerd</item>
+        <item quantity="one">%d geselecteerd</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d taken</item>
+        <item quantity="zero">Geen taken</item>
+        <item quantity="one">1 taak</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nieuwe meldingen</item>
+        <item quantity="one">%d nieuwe melding</item>
+    </plurals>
+</resources>

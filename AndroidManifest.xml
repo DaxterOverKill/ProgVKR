@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><manifest xmlns:android="http://schemas.android.com/apk/res/android" android:compileSdkVersion="30" android:compileSdkVersionCodename="11" android:installLocation="internalOnly" package="com.icemediacreative.timetable" platformBuildVersionCode="30" platformBuildVersionName="11">
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+    <uses-permission android:name="android.permission.VIBRATE"/>
+    <uses-permission android:name="com.android.vending.BILLING"/>
+    <uses-permission android:name="com.android.alarm.permission.SET_ALARM"/>
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <application android:allowBackup="true" android:appComponentFactory="androidx.core.app.CoreComponentFactory" android:icon="@mipmap/ic_launcher" android:label="@string/app_name" android:name="com.icemediacreative.timetable.core.TimetableApplication" android:theme="@style/TimetableTheme"  >
+        <meta-data android:name="com.google.android.gms.version" android:value="@integer/google_play_services_version"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:label="@string/app_name" android:launchMode="singleTask" android:name="com.icemediacreative.timetable.ui.week_events.WeekActivity">
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+            <intent-filter android:label="@string/app_name">
+                <action android:name="android.intent.action.VIEW"/>
+                <category android:name="android.intent.category.DEFAULT"/>
+                <category android:name="android.intent.category.BROWSABLE"/>
+                <data android:scheme="file"/>
+                <data android:scheme="content"/>
+                <data android:host="*"/>
+                <data android:mimeType="*/*"/>
+                <data android:mimeType="application/timetable"/>
+                <data android:pathPattern=".*\\.timetable"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/EditConcise" android:name="com.icemediacreative.timetable.ui.week_events.WeekEventEditActivity"/>
+        <activity android:label="@string/EditConcise" android:name="com.icemediacreative.timetable.ui.task_events.TaskEventEditActivity"/>
+        <activity android:label="@string/SelectTaskCategory" android:name="com.icemediacreative.timetable.ui.category_selection.SelectCategoryActivity"/>
+        <activity android:label="@string/ManageCategories" android:name="com.icemediacreative.timetable.ui.category_management.ManageCategoriesActivity"/>
+        <activity android:label="@string/SelectColor" android:name="com.icemediacreative.timetable.ui.color_selection.SelectColorActivity"/>
+        <activity android:label="@string/Tasks" android:name="com.icemediacreative.timetable.ui.task_events.TasksActivity"/>
+        <activity android:label="@string/UpgradePaywallTitle" android:name="com.icemediacreative.timetable.ui.upgrade.UpgradePaywallActivity"/>
+        <activity android:configChanges="orientation|screenLayout|screenSize" android:name="com.icemediacreative.timetable.ui.calendar.CalendarActivity"/>
+        <activity android:label="@string/Settings" android:name="com.icemediacreative.timetable.ui.settings.SettingsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.PREFERENCE"/>
+            </intent-filter>
+        </activity>
+        <activity android:label="@string/Notifications" android:name="com.icemediacreative.timetable.ui.settings.NotificationSettingsActivity">
+            <intent-filter>
+                <category android:name="android.intent.category.PREFERENCE"/>
+            </intent-filter>
+        </activity>
+        <receiver android:name="com.icemediacreative.timetable.ui.widget.WidgetProvider">
+            <intent-filter>
+                <action android:name="android.appwidget.action.APPWIDGET_UPDATE"/>
+            </intent-filter>
+            <meta-data android:name="android.appwidget.provider" android:resource="@xml/home_screen_widget"/>
+        </receiver>
+        <service android:name="com.icemediacreative.timetable.ui.widget.WidgetService" android:permission="android.permission.BIND_REMOTEVIEWS"/>
+        <receiver android:name="com.icemediacreative.timetable.receivers.DailyUpdateReceiver">
+            <intent-filter>
+                <action android:name="android.intent.action.TIME_SET"/>
+                <action android:name="android.intent.action.TIMEZONE_CHANGED"/>
+                <action android:name="android.intent.action.BOOT_COMPLETED"/>
+                <action android:name="android.intent.action.QUICKBOOT_POWERON"/>
+            </intent-filter>
+        </receiver>
+        <receiver android:name="com.icemediacreative.timetable.receivers.WeekEventNotificationReceiver"/>
+        <receiver android:name="com.icemediacreative.timetable.receivers.TaskEventNotificationReceiver"/>
+        <provider android:authorities="com.icemediacreative.timetable.provider" android:exported="false" android:grantUriPermissions="true" android:name="androidx.core.content.FileProvider">
+            <meta-data android:name="android.support.FILE_PROVIDER_PATHS" android:resource="@xml/file_provider_paths"/>
+        </provider>
+        <activity android:exported="false" android:name="com.google.android.gms.common.api.GoogleApiActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <meta-data android:name="com.google.android.play.billingclient.version" android:value="3.0.2"/>
+        <activity android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|screenSize" android:exported="false" android:name="com.android.billingclient.api.ProxyBillingActivity" android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+        <provider android:authorities="com.icemediacreative.timetable.lifecycle-process" android:exported="false" android:multiprocess="true" android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"/>
+        <meta-data android:name="com.android.dynamic.apk.fused.modules" android:value="base"/>
+        <meta-data android:name="com.android.stamp.source" android:value="https://play.google.com/store"/>
+        <meta-data android:name="com.android.stamp.type" android:value="STAMP_TYPE_STANDALONE_APK"/>
+        <meta-data android:name="com.android.vending.splits" android:value="@xml/splits0"/>
+        <meta-data android:name="com.android.vending.derived.apk.id" android:value="1"/>
+    </application>
+</manifest>

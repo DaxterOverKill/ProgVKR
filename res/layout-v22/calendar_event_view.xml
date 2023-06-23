@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView android:id="@id/calendar_event_container" android:layout_width="wrap_content" android:layout_height="wrap_content" android:elevation="0.0dip" app:cardCornerRadius="9.0dip" app:cardElevation="0.0dip"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.icemediacreative.timetable.ui.shared.RoundedSelectionButton android:id="@id/background_button" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+    <TextView android:textSize="@dimen/smallDynamicFontSize" android:textColor="@color/white" android:gravity="center" android:id="@id/title" android:paddingLeft="@dimen/smallPaddingSize" android:paddingRight="@dimen/smallPaddingSize" android:layout_width="fill_parent" android:layout_height="fill_parent" android:fontFamily="sans-serif-medium" android:paddingHorizontal="@dimen/smallPaddingSize" />
+</androidx.cardview.widget.CardView>

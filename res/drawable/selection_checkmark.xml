@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape android:shape="oval">
+            <solid android:color="@color/accent" />
+            <stroke android:width="2.0dip" android:color="@color/white" />
+        </shape>
+    </item>
+    <item android:drawable="@drawable/ic_selection_checkmark" android:left="@dimen/tinyPaddingSize" android:top="@dimen/tinyPaddingSize" android:right="@dimen/tinyPaddingSize" android:bottom="@dimen/tinyPaddingSize" />
+</layer-list>

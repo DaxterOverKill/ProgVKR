@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="SelectedCount">
+        <item quantity="other">Изабрано је %1$d ставки</item>
+        <item quantity="one">Изабрана је %1$d ставка</item>
+        <item quantity="few">Изабране су %1$d ставке</item>
+    </plurals>
+</resources>

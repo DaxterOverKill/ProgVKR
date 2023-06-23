@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreferenceCompat android:title="@string/OnOffLabel" android:key="@string/preference_key_enable_notifications" android:defaultValue="false" />
+        <com.icemediacreative.timetable.ui.settings.NotificationTimeOffsetPreference android:max="60" android:title="@string/NotificationTime" android:selectable="false" android:key="@string/preference_key_notification_time_offset" android:dependency="@string/preference_key_enable_notifications" android:defaultValue="5" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

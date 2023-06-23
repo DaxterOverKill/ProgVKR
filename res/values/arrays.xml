@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="week_index_number_labels">
+        <item>@string/WeekIndexContext1</item>
+        <item>@string/WeekIndexContext2</item>
+        <item>@string/WeekIndexContext3</item>
+        <item>@string/WeekIndexContext4</item>
+    </string-array>
+</resources>

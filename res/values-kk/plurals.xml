@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d іс-шара</item>
+        <item quantity="zero">Сабақ жоқ</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">Тағы %d</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d оқиғалар</item>
+        <item quantity="zero">Оқиғалар жоқ</item>
+        <item quantity="one">1 пайда болуы</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d таңдалды</item>
+        <item quantity="zero">%d таңдалды</item>
+        <item quantity="one">%d таңдалды</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d тапсырма</item>
+        <item quantity="zero">Тапсырма жоқ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d жаңа хабарландыру</item>
+        <item quantity="one">%d жаңа хабарландыру</item>
+    </plurals>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <padding android:left="@dimen/tinyPaddingSize" android:top="@dimen/tinyPaddingSize" android:right="@dimen/tinyPaddingSize" android:bottom="@dimen/tinyPaddingSize" />
+            <solid android:color="@color/transparent" />
+        </shape>
+    </item>
+    <item>
+        <shape>
+            <solid android:color="@color/widgetBackground" />
+            <corners android:radius="@dimen/widgetCornerRadius" />
+        </shape>
+    </item>
+</layer-list>

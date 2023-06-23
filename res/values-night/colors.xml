@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="accent">#ff1a92ff</color>
+    <color name="calendarWeekSelectorBackground">@color/accent</color>
+    <color name="calendarWeekSelectorText">@color/white</color>
+    <color name="elevatedBackground">#ff212121</color>
+    <color name="gray">#ff555555</color>
+    <color name="listBackground">#ff131313</color>
+    <color name="navigationChrome">#ff212121</color>
+    <color name="separatorColor">#ff090909</color>
+    <color name="subtleGray">#ff393939</color>
+    <color name="tertiaryElement">#ff333333</color>
+    <color name="textColorPrimary">#fff8f8f8</color>
+    <color name="textColorSecondary">#ff919191</color>
+    <color name="timePickerHeader">@color/navigationChrome</color>
+    <color name="widgetBackground">#ff363636</color>
+</resources>

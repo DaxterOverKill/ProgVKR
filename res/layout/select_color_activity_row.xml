@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.icemediacreative.timetable.ui.color_selection.SelectColorPaletteLayout android:id="@id/color_palette_container" android:layout_width="fill_parent" android:layout_height="@dimen/largeContentItemHeight" android:layout_marginLeft="@dimen/mediumPaddingSize" android:layout_marginTop="@dimen/extraSmallPaddingSize" android:layout_marginRight="@dimen/mediumPaddingSize" android:layout_marginBottom="@dimen/extraSmallPaddingSize"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

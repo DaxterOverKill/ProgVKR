@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:id="@id/container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <ScrollView android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <LinearLayout android:orientation="vertical" android:paddingLeft="@dimen/horizontalLayoutMarginSize" android:paddingTop="@dimen/verticalLayoutMarginSize" android:paddingRight="@dimen/horizontalLayoutMarginSize" android:paddingBottom="@dimen/verticalLayoutMarginSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.icemediacreative.timetable.ui.shared.RoundedSelectionButton android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <LinearLayout android:orientation="vertical" android:padding="@dimen/mediumPaddingSize" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/UpgradePaywallDescription" />
+                    <Space android:layout_width="fill_parent" android:layout_height="@dimen/mediumPaddingSize" />
+                    <Button android:textColor="@color/white" android:id="@id/upgrade_button" android:layout_width="wrap_content" android:layout_height="@dimen/smallContentItemHeight" android:text="@string/UpgradeFullTitle" android:insetTop="0.0dip" android:insetBottom="0.0dip" />
+                </LinearLayout>
+            </FrameLayout>
+            <Space android:layout_width="fill_parent" android:layout_height="@dimen/mediumPaddingSize" />
+            <FrameLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+                <com.icemediacreative.timetable.ui.shared.RoundedSelectionButton android:layout_width="fill_parent" android:layout_height="fill_parent" />
+                <LinearLayout android:orientation="vertical" android:padding="@dimen/mediumPaddingSize" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_notifications" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/NotificationsTitle" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                    <Space android:layout_width="wrap_content" android:layout_height="@dimen/largePaddingSize" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_task_reminders" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/TaskReminders" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                    <Space android:layout_width="wrap_content" android:layout_height="@dimen/largePaddingSize" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_improved_widget" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/NotificationWidgetFeature" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                    <Space android:layout_width="wrap_content" android:layout_height="@dimen/largePaddingSize" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_never_see_ads" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/NoAds" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                    <Space android:layout_width="wrap_content" android:layout_height="@dimen/largePaddingSize" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_share" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/ExportFeature" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                    <Space android:layout_width="wrap_content" android:layout_height="@dimen/largePaddingSize" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_week_view" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/RotateForWeek" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                    <Space android:layout_width="wrap_content" android:layout_height="@dimen/largePaddingSize" />
+                    <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="fill_parent" android:layout_height="wrap_content">
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_upgrade_feature_support" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:layout_width="0.0dip" android:layout_height="wrap_content" android:text="@string/Support" android:layout_weight="1.0" />
+                        <Space android:layout_width="@dimen/mediumPaddingSize" android:layout_height="fill_parent" />
+                        <ImageView android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_selection_checkmark" android:tint="@color/accent" />
+                    </LinearLayout>
+                </LinearLayout>
+            </FrameLayout>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

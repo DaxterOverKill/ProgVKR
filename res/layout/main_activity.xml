@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <com.google.android.material.appbar.AppBarLayout android:layout_width="fill_parent" android:layout_height="wrap_content">
+        <androidx.appcompat.widget.Toolbar android:id="@id/toolbar" android:layout_width="fill_parent" android:layout_height="wrap_content" app:title="@string/app_name">
+            <androidx.appcompat.widget.AppCompatSpinner android:id="@id/week_selector" android:layout_width="wrap_content" android:layout_height="wrap_content" android:dropDownVerticalOffset="@dimen/negativeSmallPaddingSize" />
+        </androidx.appcompat.widget.Toolbar>
+        <com.google.android.material.tabs.TabLayout android:id="@id/tab_layout" android:layout_width="fill_parent" android:layout_height="wrap_content" app:tabMode="scrollable" />
+    </com.google.android.material.appbar.AppBarLayout>
+    <androidx.coordinatorlayout.widget.CoordinatorLayout android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <androidx.viewpager.widget.ViewPager android:id="@id/pager" android:layout_width="fill_parent" android:layout_height="fill_parent" />
+        <com.icemediacreative.timetable.ui.shared.FlatExtendedFloatingActionButton android:layout_gravity="end|bottom|center" android:id="@id/tasksButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_margin="@dimen/mediumPaddingSize" android:text="@string/Tasks" app:icon="@drawable/ic_selection_checkmark" app:iconPadding="@dimen/smallPaddingSize" app:iconSize="@dimen/floatingActionButtonIconSize" />
+    </androidx.coordinatorlayout.widget.CoordinatorLayout>
+</LinearLayout>

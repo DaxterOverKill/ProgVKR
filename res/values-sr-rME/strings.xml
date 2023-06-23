@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="AddToHomeScreen">Додавање на почетни екран</string>
+    <string name="RateThisApp">Оцени ову апликацију</string>
+    <string name="RemoveAds">Уклони огласе</string>
+    <string name="ResetConfirmationTitle">Ресетовање је успешно</string>
+    <string name="SharingCategoryName">Дељење</string>
+    <string name="TimetableCategoryName">Распоред</string>
+</resources>

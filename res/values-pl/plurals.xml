@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d wydarzenia</item>
+        <item quantity="zero">Brak zajęć</item>
+        <item quantity="one">%d wydarzenie</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">jeszcze %d</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d wystąpień</item>
+        <item quantity="zero">Brak wystąpień</item>
+        <item quantity="one">1 wystąpienie</item>
+        <item quantity="few">%d wystąpień</item>
+        <item quantity="many">%d wystąpień</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">wybrano %d</item>
+        <item quantity="zero">wybrano %d</item>
+        <item quantity="one">wybrano %d</item>
+        <item quantity="few">wybrano %d</item>
+        <item quantity="many">wybrano %d</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d zadań</item>
+        <item quantity="zero">Brak zadań</item>
+        <item quantity="one">%d zadanie</item>
+        <item quantity="few">%d zadania</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nowego powiadomienia</item>
+        <item quantity="one">%d nowe powiadomienie</item>
+        <item quantity="few">%d nowe powiadomienia</item>
+        <item quantity="many">%d nowych powiadomień</item>
+    </plurals>
+</resources>

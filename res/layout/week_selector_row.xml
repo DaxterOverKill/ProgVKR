@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textSize="@dimen/actionBarTitleFontSize" android:textColor="@color/textColorPrimary" android:id="@id/title1" android:paddingLeft="@dimen/mediumPaddingSize" android:paddingTop="@dimen/smallPaddingSize" android:paddingRight="@dimen/mediumPaddingSize" android:paddingBottom="@dimen/smallPaddingSize" android:layout_width="wrap_content" android:layout_height="wrap_content" android:fontFamily="sans-serif-medium"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

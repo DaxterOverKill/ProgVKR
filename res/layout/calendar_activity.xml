@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:id="@id/calendar_activity_container" android:layout_width="fill_parent" android:layout_height="fill_parent"
+  xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto">
+    <fragment android:id="@id/calendar_fragment" android:layout_width="fill_parent" android:layout_height="fill_parent" class="com.icemediacreative.timetable.ui.calendar.CalendarFragment" />
+    <RelativeLayout android:id="@id/upgrade_container" android:focusable="true" android:visibility="gone" android:clickable="true" android:layout_width="fill_parent" android:layout_height="fill_parent">
+        <View android:background="@color/elevatedBackground" android:layout_width="fill_parent" android:layout_height="fill_parent" android:alpha="0.7" />
+        <androidx.cardview.widget.CardView android:id="@id/upgrade_panel" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_centerInParent="true" app:cardBackgroundColor="@color/elevatedBackground" app:cardCornerRadius="12.0dip" app:cardElevation="12.0dip">
+            <LinearLayout android:gravity="center_horizontal" android:orientation="vertical" android:padding="@dimen/mediumPaddingSize" android:clipToPadding="false" android:layout_width="fill_parent" android:layout_height="wrap_content" android:minWidth="300.0dip">
+                <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorPrimary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/UpgradePaywallTitle" android:fontFamily="sans-serif-medium" android:textAlignment="center" />
+                <Space android:layout_width="fill_parent" android:layout_height="@dimen/smallPaddingSize" />
+                <TextView android:textSize="@dimen/regularDynamicFontSize" android:textColor="@color/textColorSecondary" android:gravity="center" android:layout_width="fill_parent" android:layout_height="wrap_content" android:text="@string/UpgradePaywallDescription" android:textAlignment="center" />
+                <Space android:layout_width="fill_parent" android:layout_height="@dimen/largePaddingSize" />
+                <Button android:textColor="@color/white" android:id="@id/upgrade_button" android:layout_width="wrap_content" android:layout_height="@dimen/smallContentItemHeight" android:text="@string/UpgradeFullTitle" android:insetTop="0.0dip" android:insetBottom="0.0dip" />
+            </LinearLayout>
+        </androidx.cardview.widget.CardView>
+    </RelativeLayout>
+</FrameLayout>

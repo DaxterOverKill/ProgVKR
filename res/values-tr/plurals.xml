@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d etkinlik</item>
+        <item quantity="zero">Etkinlik yok</item>
+        <item quantity="one">1 etkinlik</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">%d daha fazla</item>
+        <item quantity="zero">%d daha fazla</item>
+        <item quantity="one">1 daha fazla</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d Olay</item>
+        <item quantity="zero">Olay Yok</item>
+        <item quantity="one">1 Olay</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d seçildi</item>
+        <item quantity="zero">%d seçildi</item>
+        <item quantity="one">%d seçildi</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d görev</item>
+        <item quantity="zero">Görev yok</item>
+        <item quantity="one">1 görev</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d yeni bildirim</item>
+        <item quantity="one">%d yeni bildirim</item>
+    </plurals>
+</resources>

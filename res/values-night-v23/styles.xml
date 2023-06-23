@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Base.TimetableTheme" parent="@style/Base.V23.TimetableTheme" />
+    <style name="Base.V23.TimetableTheme" parent="@style/Base.V21.TimetableTheme">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="colorPrimaryDark">@color/navigationChrome</item>
+    </style>
+</resources>

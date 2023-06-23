@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.preference.PreferenceScreen
+  xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory android:title="@string/TimetableCategoryName">
+        <com.icemediacreative.timetable.ui.settings.NumberOfWeeksPreference android:icon="@drawable/ic_settings_number_of_weeks" android:title="@string/NumberOfWeeks" android:key="@string/preference_key_number_of_weeks" />
+        <SwitchPreferenceCompat android:icon="@drawable/ic_settings_enable_weekend" android:title="@string/WeekendActive" android:key="@string/preference_key_enable_weekend" android:defaultValue="false" />
+        <com.icemediacreative.timetable.ui.settings.NotificationPreference android:icon="@drawable/ic_settings_notifications" android:title="@string/Notifications" android:key="@string/preference_key_enable_notifications" />
+        <Preference android:icon="@drawable/ic_settings_add_widget" android:title="@string/AddToHomeScreen" android:key="@string/preference_key_add_to_home_screen" />
+        <Preference android:icon="@drawable/ic_settings_reset" android:title="@string/ResetTimetable" android:key="@string/preference_key_reset_timetable" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/SharingCategoryName">
+        <Preference android:icon="@drawable/ic_settings_export" android:title="@string/ExportTimetable" android:key="@string/preference_key_export" />
+        <Preference android:icon="@drawable/ic_settings_import" android:title="@string/ImportTimetable" android:key="@string/preference_key_import" />
+    </PreferenceCategory>
+    <PreferenceCategory android:title="@string/More">
+        <Preference android:icon="@drawable/ic_settings_upgrade" android:title="@string/UpgradeFullTitle" android:key="@string/preference_key_is_pro_version_enabled" />
+        <Preference android:icon="@drawable/ic_settings_restore_purchases" android:title="@string/RestorePurchases" android:key="@string/preference_key_restore_purchases" />
+        <Preference android:icon="@drawable/ic_settings_rate_this_app" android:title="@string/RateThisApp" android:key="@string/preference_key_rate_this_app" />
+        <Preference android:icon="@drawable/ic_settings_weblink" android:title="https://classtimetable.app" android:key="@string/preference_key_website_link" />
+    </PreferenceCategory>
+</androidx.preference.PreferenceScreen>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d 개의 이벤트</item>
+        <item quantity="zero">일정 없음</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">%d개 더보기</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">이벤트 진행 건 %d회</item>
+        <item quantity="zero">이벤트 없음</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d개 선택됨</item>
+        <item quantity="zero">%d개 선택됨</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d 개 과제</item>
+        <item quantity="zero">과제 없음</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">새 알림 %d개</item>
+        <item quantity="one">새 알림 %d개</item>
+    </plurals>
+</resources>

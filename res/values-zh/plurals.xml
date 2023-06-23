@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d事件</item>
+        <item quantity="zero">无事件</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">其他 %d 个</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d 个事项</item>
+        <item quantity="zero">无事项</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">已选%d个</item>
+        <item quantity="zero">已选%d个</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d项任务</item>
+        <item quantity="zero">无任务</item>
+    </plurals>
+</resources>

@@ -1,0 +1,3 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView android:textAppearance="?android:textAppearanceMedium" android:textColor="@color/textColorSecondary" android:gravity="center_vertical" android:id="@id/auto_complete_textview" android:paddingLeft="@dimen/mediumPaddingSize" android:paddingRight="@dimen/mediumPaddingSize" android:layout_width="fill_parent" android:layout_height="@dimen/smallContentItemHeight"
+  xmlns:android="http://schemas.android.com/apk/res/android" />

@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d sự kiện</item>
+        <item quantity="zero">Không có sự kiện</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">thêm %d</item>
+        <item quantity="zero">thêm %d</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d Sự kiện</item>
+        <item quantity="zero">Không có sự kiện</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d đã được chọn</item>
+        <item quantity="zero">%d đã được chọn</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d nhiệm vụ</item>
+        <item quantity="zero">Không có nhiệm vụ</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d thông báo mới</item>
+        <item quantity="one">%d thông báo mới</item>
+    </plurals>
+</resources>

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d akcí</item>
+        <item quantity="zero">Žádné události</item>
+        <item quantity="one">%d událost</item>
+        <item quantity="few">%d události</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">a další (%d)</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d výskytů</item>
+        <item quantity="zero">Žádné výskyty</item>
+        <item quantity="one">1 výskyt</item>
+        <item quantity="few">%d výskytů</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d vybráno</item>
+        <item quantity="zero">%d vybráno</item>
+        <item quantity="one">%d vybráno</item>
+        <item quantity="few">%d vybráno</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d úkolů</item>
+        <item quantity="zero">Žádné úkoly</item>
+        <item quantity="one">%d úkol</item>
+        <item quantity="few">%d úkoly</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nových oznámení</item>
+        <item quantity="one">%d nové oznámení</item>
+        <item quantity="few">%d nová oznámení</item>
+        <item quantity="many">%d nového oznámení</item>
+    </plurals>
+</resources>

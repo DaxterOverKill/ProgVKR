@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d hendelser</item>
+        <item quantity="zero">Ingen timer</item>
+        <item quantity="one">%d hendelse</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">%d flere</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d Forekomster</item>
+        <item quantity="zero">Ingen forekomster</item>
+        <item quantity="one">1 forekomst</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d selected</item>
+        <item quantity="zero">%d selected</item>
+        <item quantity="one">%d selected</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d oppgaver</item>
+        <item quantity="zero">Ingen oppgaver</item>
+        <item quantity="one">%d oppgave</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d nye varsler</item>
+        <item quantity="one">%d nytt varsel</item>
+    </plurals>
+</resources>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <plurals name="EventCount">
+        <item quantity="other">%d esemény</item>
+        <item quantity="zero">Nincs esemény</item>
+    </plurals>
+    <plurals name="MoreCount">
+        <item quantity="other">%d további</item>
+    </plurals>
+    <plurals name="OccurrenceCount">
+        <item quantity="other">%d ismétlődés</item>
+        <item quantity="zero">Nincs ismétlődés</item>
+        <item quantity="one">1 ismétlődés</item>
+    </plurals>
+    <plurals name="SelectedCount">
+        <item quantity="other">%d kiválasztva</item>
+        <item quantity="zero">%d kiválasztva</item>
+        <item quantity="one">%d kiválasztva</item>
+    </plurals>
+    <plurals name="TaskCount">
+        <item quantity="other">%d feladat</item>
+        <item quantity="zero">Nincs feladat</item>
+    </plurals>
+    <plurals name="mtrl_badge_content_description">
+        <item quantity="other">%d új értesítés</item>
+        <item quantity="one">%d új értesítés</item>
+    </plurals>
+</resources>
